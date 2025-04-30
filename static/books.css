@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap);
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Bell MT;
+    
+}
+
+.body{
+    background-color :#E5E5E5;
+}
+
+#introSectionbooks{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 65px;
+    background: center/cover no-repeat url("../books\ and\ recommendations.jpg") ;
+    height: 425px;
+}
+
+
+#introSectionbooks div.smallbooks{
+    max-width:55%;
+    margin-top:14%;    
+    padding: 20px;
+    color: rgba(253, 253, 253, 0.87);  
+}
+
+.smbooks{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 90px;
+}
+
+.quote{
+    padding:2% 8%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: tangerine;
+    font-size: 350%;
+}
+
+/* content */
+.books{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 14%;
+}
+
+.b_heading{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.b_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4C4C4;
+    margin-left: 3%;
+    font-size: 150%;
+    font-family: sans-serif;
+    padding: 2% 2%;
+}
+
+.out{
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+}
+
+
+.image{
+    margin-left:3%;
+    border-radius: 12%;
+}
+
+@media (min-width:1000px ) and (max-width:1230px){
+    .out{
+        margin-right: 1.5%;
+        margin-left: -4%;
+    }
+}
+
+@media (min-width:860px ) and (max-width:1000px){
+    .out{
+        margin-right: 1.5%;
+        margin-left: -4%;
+    }
+    #introSectionbooks{
+        height: 350px;
+    }
+
+    
+    .smbooks{
+        font-size: 78px;
+    }
+}
+
+@media (min-width:710px ) and (max-width:860px){
+    .out{
+        margin-right: -1.5%;
+        margin-left: -7%;
+    }
+
+    #introSectionbooks{
+        height: 325px;
+    }
+
+    .smbooks{
+        font-size: 70px;
+    }
+
+}
+
+@media (min-width:0px ) and (max-width:710px){
+    
+
+    #introSectionbooks{
+        height: 300px;
+    }
+
+    #introSectionbooks div.smallbooks{
+        max-width:55%;
+        margin-top:16%;    
+        padding: 20px;
+        color: rgba(253, 253, 253, 0.87);  
+    }
+
+    .quote{
+    font-size:272% ;
+    }
+
+    .smbooks{
+        font-size: 60px;
+    }
+
+    .out{
+        margin-right: -17.5%;
+        margin-left: -16%;
+    }
+
+    .b_content{
+        font-size: 130%;
+    }
+}
+
+
+@media(max-width:584px){
+
+    #introSectionbooks div.smallbooks{
+        margin-top:21%;    
+    }
+
+    #introSectionbooks{
+        height: 250px;
+    }
+
+    .quote{
+        font-size:252% ;
+        }
+    
+    .smbooks{
+        font-size: 45px;
+    }
+
+    .b_content{
+        font-size: 110%;
+    }
+}
+
+@media(max-width:532px){
+
+    #introSectionbooks div.smallbooks{
+        margin-top:20%;    
+    }
+
+    #introSectionbooks{
+        height: 220px;
+    }
+
+    .quote{
+        font-size:232% ;
+        }
+
+        .smbooks{
+            font-size: 40px;
+        }
+}
+
+@media(max-width:419px){
+
+    #introSectionbooks div.smallbooks{
+        margin-top:18%;    
+    }
+
+    #introSectionbooks{
+        height: 250px;
+    }
+
+    .quote{
+        font-size:212% ;
+        }
+
+
+    .smbooks{
+        font-size: 40px;
+    }
+
+    .b_content{
+        font-size: 90%;
+    }
+}
+
+@media(max-width:354px) {
+    #introSectionbooks div.smallbooks{
+        margin-top:18%;    
+    }
+
+    .quote{
+        font-size:192% ;
+        }
+
+    #introSectionbooks{
+        height: 220px;
+    }
+
+    .smbooks{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:260px){
+    #introSectionbooks{
+        height: 180px;
+    }
+
+    .smbooks{
+        font-size: 30px;
+    }
+}

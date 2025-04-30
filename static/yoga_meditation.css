@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Bell MT;
+    
+}
+
+.body{
+    background-color :#E5E5E5;
+}
+
+.out img{
+    width: 300px;
+    margin-top: 6%;
+}
+
+.b_content1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#introSectionyoga{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 65px;
+    background: center/cover no-repeat url("../yoga.jpg") ;
+    height: 425px;
+}
+
+
+#introSectionyoga div.smallyoga{
+    max-width:55%;
+    margin-top:14%;    
+    padding: 20px;
+    color: rgba(253, 253, 253, 0.87);
+    
+}
+
+.smyoga{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 90px;
+    padding: 5px;
+}
+
+
+.yoga{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    text-align: center;
+    font-size: 33.6px;
+    margin-top: 3%;
+}
+
+.b_heading{
+    margin-left: 4%;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.b_content{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #C4C4C4;
+    margin-left: 4%;
+    margin-top: 0.5%;
+    font-size: 150%;
+    max-width: 65%;
+}
+
+.b_content1{
+    padding: 2%;
+
+    font-family: sans-serif;
+    background-color: #C4C4C4;
+    margin-left: 4%;
+    margin-top: 0,5%;
+    font-size: 150%;
+    max-width: 65%;
+}
+
+
+.out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image{
+    margin-left:3%;
+}
+
+@media(min-width:710px){
+    .head{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1000px ) and (max-width:1230px){
+
+}
+
+@media (min-width:860px ) and (max-width:1000px){
+    .b_heading{
+        font-size: 225%;
+    }
+
+    .head{
+        font-size: 28px;
+    }
+
+    .b_content{
+        font-size: 125%;
+    }
+
+    .b_content1{
+        font-size: 125%;
+    }
+
+    .smyoga{
+        font-size: 78px;
+    }
+
+    #introSectionyoga{
+        height: 350px;
+    }
+
+    .out img{
+        width: 278px;
+    }
+}
+
+@media (min-width:710px ) and (max-width:860px){
+    .b_heading{
+        font-size: 210%;
+    }
+    .head{
+        font-size: 26px;
+    }
+    .b_content{
+        font-size: 110%;
+    }
+
+    .b_content1{
+        font-size: 110%;
+    }
+
+    .smyoga{
+        font-size: 70px;
+    }
+
+    #introSectionyoga{
+        height: 325px;
+    }
+
+    .out img{
+        width: 270px;
+    }
+}
+
+@media (min-width:0px ) and (max-width:710px){
+    .b_heading{
+        font-size: 190%;
+    }
+
+    .head{
+        font-size: 23px;
+    }
+
+    .b_content{
+        font-size: 100%;
+    }
+
+    .b_content1{
+        font-size: 100%;
+    }
+
+    .smyoga{
+        font-size: 60px;
+    }
+
+    #introSectionyoga{
+        height: 300px;
+    }
+
+    .out img{
+        width: 180px;
+    }
+}
+
+@media(max-width:584px){
+
+}
+
+@media(max-width:419px){
+    .b_heading{
+        font-size: 160%;
+    }
+
+    .b_content{
+        font-size: 80%;
+    }
+
+    .b_content1{
+        font-size: 80%;
+    }
+
+    .smyoga{
+        font-size: 45px;
+    }
+
+    .head{
+        font-size: 22px;
+    }
+
+    #introSectionyoga{
+        height: 250px;
+    }
+
+    .out img{
+        width: 140px;
+    }
+}
+
+@media(max-width:354px) {
+    .b_heading{
+        font-size: 140%;
+    }
+
+    .b_content{
+        font-size: 65%;
+    }
+
+    .b_content1{
+        font-size: 65%;
+    }
+
+    .smyoga{
+        font-size: 40px;
+    }
+
+    #introSectionyoga{
+        height: 220px;
+    }
+
+    .out img{
+        width: 120px;
+    }
+}
+
+@media(max-width:260px){
+    .b_heading{
+        font-size: 110%;
+    }
+
+    .b_content{
+        font-size: 50%;
+    }
+
+    .b_content1{
+        font-size: 50%;
+    }
+
+    .smyoga{
+        font-size: 30px;
+    }
+
+    #introSectionyoga{
+        height: 180px;
+    }
+
+    .out img{
+        width: 90px;
+    }
+}

@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Bell MT;
+    
+}
+
+.body{
+    background-color :#E5E5E5;
+}
+
+#introSectionmusic{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 65px;
+    background: center/cover no-repeat url("../music.jpg") ;
+    height: 425px;
+}
+
+
+#introSectionmusic div.smallmusic{
+    max-width:55%;
+    margin-top:10%;    
+    padding: 20px;
+    color: white;
+    
+}
+
+.smmusic{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 90px;
+    padding: 5px;
+    margin-top: 15%;
+}
+
+.head{
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 300%;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    margin: auto 3%;
+    flex-wrap: wrap;
+}
+
+.box iframe{
+    width:23%;
+}
+
+@media(min-width:710px){
+
+}
+
+@media (min-width:1000px ) and (max-width:1230px){
+    .box iframe{
+        width:30.666%;
+    }
+}
+
+@media (min-width:860px ) and (max-width:1000px){
+    .box iframe{
+        width:30.666%;
+    }
+
+    .smmusic{
+        font-size: 78px;
+    }
+}
+
+@media (min-width:710px ) and (max-width:860px){
+    .box iframe{
+        width:41%;
+    }
+    #introSectionmusic{
+        height: 325px;
+    }
+
+    .smmusic{
+        font-size: 70px;
+    }
+
+}
+
+@media (min-width:0px ) and (max-width:710px){
+    .box iframe{
+        width:46.5%;
+    }
+
+    #introSectionmusic{
+        height: 300px;
+    }
+
+    .head{
+    font-size:252% ;
+    }
+
+    .smmusic{
+        font-size: 60px;
+    }
+}
+
+
+@media(max-width:584px){
+    .box iframe{
+        width:49.8%;
+    }
+
+    .box{
+        margin: auto 1%;
+    }
+
+    .head{
+        font-size:220% ;
+        }
+
+        .smmusic{
+            font-size: 60px;
+        }
+}
+
+@media(max-width:532px){
+    .box iframe{
+        width:80%;
+    }
+
+    .box{
+        margin: auto 3%;
+    }
+
+    .head{
+        font-size:185% ;
+        }
+
+}
+
+@media(max-width:419px){
+
+    #introSectionmusic{
+        height: 250px;
+    }
+
+    .smmusic{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:354px) {
+    .smmusic{
+        font-size: 40px;
+    }
+
+    #introSectionmusic{
+        height: 220px;
+    }
+}
+
+@media(max-width:260px){
+    #introSectionmusic{
+        height: 180px;
+    }
+
+    .smmusic{
+        font-size: 30;
+    }
+}
+

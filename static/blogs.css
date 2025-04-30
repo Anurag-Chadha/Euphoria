@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Bell MT;
+    
+}
+
+
+#introSectionblogs{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 65px;
+    background: center/cover no-repeat url("../MicrosoftTeams-image\ \(1\).png") ;
+    height: 425px;
+}
+
+
+#introSectionblogs div.smallblogs{
+    max-width:45%;
+    display: flex;
+    margin-top: 12%;
+    padding: 2%;
+    color: white;
+    margin-bottom: 2%;
+    
+}
+
+.smblogs{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 90px;
+    padding: 5px;
+}
+
+.blog{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.b_heading{
+    margin-left: 6%;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.b_content{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #C4C4C4;
+    margin-left: 4%;
+    margin-top: 0.5%;
+    font-size: 150%;
+    max-width: 65%;
+}
+
+.b_content1{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #C4C4C4;
+    margin-left: 7%;
+    margin-top: 0.5%;
+    max-width: 65%;
+    font-size: 150%;
+    width: 315%;
+}
+
+.b_content1 a{
+    color: black;
+    text-decoration: underline;
+    margin: 1%;
+}
+.a{
+    font-size: 150%;
+    padding: 2%;
+}
+
+
+.h:hover{
+    color: rgb(85, 84, 84);
+}
+
+.out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image{
+    margin-left:3%;
+}
+
+.image1 img{
+    width:40px;
+
+}
+
+@media(min-width:1200px){
+    .b_content1{
+        max-width: 54%;
+        margin-left: 12%;
+    }
+
+    .image1 img{
+        width:88%;
+    }
+}
+
+@media(max-width:1200px){
+
+
+    .image1 img{
+        display: none;
+    }
+}
+
+
+
+@media (min-width:1000px ) and (max-width:1230px){
+    .out{
+        margin-right: 1.5%;
+        margin-left: -4%;
+    }
+
+    .b_heading{
+        font-size: 260%;
+    }
+}
+
+@media (min-width:860px ) and (max-width:1000px){
+
+    #introSectionblogs{
+        height: 350px;
+    }
+
+    .out{
+        margin-right: 1.5%;
+        margin-left: -4%;
+    }
+
+    .b_heading{
+        font-size: 245%;
+    }
+
+    .smblogs{
+        font-size: 78px;
+    }
+
+}
+
+@media (min-width:710px ) and (max-width:860px){
+
+    #introSectionblogs{
+        height: 325px;
+    }
+
+    .out{
+        margin-right: -1.5%;
+        margin-left: -7%;
+    }
+
+    .b_heading{
+        font-size: 230%;
+    }
+
+    .smblogs{
+        font-size: 70px;
+    }
+}
+
+@media (min-width:0px ) and (max-width:710px){
+    
+
+    #introSectionblogs{
+        height: 300px;
+    }
+
+    #introSectionblogs div.smallblogs{
+        max-width:55%;
+        padding: 20px;
+    }
+
+    .b_heading{
+        font-size: 200%;
+    }
+
+    .smblogs{
+        font-size: 60px;
+    }
+
+    .out{
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+    }
+
+    .b_content{
+        font-size: 106%;
+    }
+
+    .b_content1{
+        font-size: 106%;
+    }
+
+    .a{
+        font-size: 130%;
+        padding: 1.5%;
+    }
+}
+
+
+@media(max-width:584px){
+
+    #introSectionblogs{
+        height: 250px;
+    }
+
+    .b_heading{
+        font-size: 180%;
+    }
+    
+    .b_content{
+        font-size: 106%;
+    }
+
+    .b_content1{
+        font-size: 106%;
+    }
+
+    .a{
+        font-size: 110%;
+        padding: 1.3%;
+    }
+}
+
+@media(max-width:532px){
+
+    .b_heading{
+        font-size: 160%;
+    }
+
+    #introSectionblogs div.smallblogs{
+        max-width: 70%;
+        margin-top: 5%;
+    }
+
+    #introSectionblogs{
+        height: 220px;
+    }
+
+}
+
+@media(max-width:419px){
+
+    .b_heading{
+        font-size: 140%;
+    }
+
+    #introSectionblogs{
+        height: 250px;
+    }
+
+    .quote{
+        font-size:212% ;
+        }
+
+
+    .smblogs{
+        font-size: 45px;
+    }
+
+    .b_content{
+        font-size: 70%;
+    }
+
+    .b_content1{
+        font-size: 66%;
+    }
+
+    #introSectionblogs div.smallblogs{
+        margin-top: 26%;
+        max-width: 70%;
+    }
+  
+}
+
+@media(max-width:354px) {
+
+    .b_heading{
+        font-size: 120%;
+    }
+
+
+
+    .b_content1{    
+        font-size: 59%;
+        margin-left: 9%;
+        max-width: 60%;}
+
+    #introSectionblogs{
+        height: 220px;
+    }
+
+    .smblogs{
+        font-size: 40px;
+    }
+}
+
+
+@media(max-width:308px){
+    .b_heading{
+        font-size: 100%;
+    }
+
+    .out img{
+        display: none;
+    }
+
+    .b_content1{
+        max-width: 82%;
+    }
+
+    #introSectionblogs{
+        height: 180px;
+    }
+
+    .smblogs{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:238px){
+    #introSectionblogs div.smallblogs{
+        margin-top: 20%;
+        max-width: 70%;
+    }
+}
