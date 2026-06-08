@@ -6,14 +6,7 @@
     
 }
 
-#introSectionblogs{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 65px;
-    background: center/cover no-repeat url("../MicrosoftTeams-image\ \(1\).png") ;
-    height: 425px;
-}
+
 #introSectionblogs{
     color: white;
     display: flex;
